@@ -31,10 +31,10 @@ logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks to Piper for the creation of our awesome textures!" #optional
 # A text field displayed in the mod UI
-authors="SaltyOnigiri00" #optional
+authors="SaltyOnigiri" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Saisei Village is a mod that brings inspiration from Studio Ghibli, Japan, and Japanese folklore to create
+Saisei Village is a mod that brings inspiration from Studio Ghibli and Japanese folklore to create
 a new and exciting adventure for players!
 
 Enjoy new characters, storylines, quests, items, and decorations as
