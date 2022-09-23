@@ -1,6 +1,9 @@
 {
   "item.saisei_village.pill": "Pill",
-  "item.saisei_village.placeholder": "Placeholder",
+  "item.saisei_village.onigiri": "Onigiri",
 
-  "block.saisei_village.old_wood_plank": "Old Wood Plank"
+  "block.saisei_village.old_wood_plank": "Old Wood Plank",
+  "block.saisei_village.speckled_brick": "Speckled Brick",
+
+  "itemGroup.saisei_tab": "Saisei Village Mod"
 }

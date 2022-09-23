@@ -1,6 +1,7 @@
 package com.saltyonigiri.saisei_village.block;
 
 import com.saltyonigiri.saisei_village.SaiseiVillage;
+import com.saltyonigiri.saisei_village.item.ModCreativeModeTab;
 import com.saltyonigiri.saisei_village.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,11 @@ public class ModBlocks {
 
     //Creates Old Wood Plank Block
     public static final RegistryObject<Block> OLD_WOOD_PLANK = registerBlock("old_wood_plank",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.SAISEI_TAB);
+
+    //Creates Speckled Brick Block
+    public static final RegistryObject<Block> SPECKLED_BRICK = registerBlock("speckled_brick",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f)), ModCreativeModeTab.SAISEI_TAB);
 
 
     /**

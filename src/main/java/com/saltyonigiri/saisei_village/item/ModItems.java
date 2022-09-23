@@ -1,7 +1,6 @@
 package com.saltyonigiri.saisei_village.item;
 
 import com.saltyonigiri.saisei_village.SaiseiVillage;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,20 +13,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, SaiseiVillage.MOD_ID);
 
-    //Item1 Placeholder
+    //Item1 Pill
     public static final RegistryObject<Item> PILL = ITEMS.register("pill",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SAISEI_TAB)));
 
-    //Item2 Placeholder
-    public static final RegistryObject<Item> PLACEHOLDER = ITEMS.register("placeholder",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
+    //Item2 Onigiri
+    public static final RegistryObject<Item> ONIGIRI = ITEMS.register("onigiri",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SAISEI_TAB).food(ModFoods.ONIGIRI)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
-
     }
-
-
-
 }
